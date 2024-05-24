@@ -368,6 +368,7 @@ export interface ApiLandingPageLandingPage extends Schema.CollectionType {
     singularName: 'landing-page';
     pluralName: 'landing-pages';
     displayName: 'Landing Page';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -375,6 +376,7 @@ export interface ApiLandingPageLandingPage extends Schema.CollectionType {
   attributes: {
     Header: Attribute.String;
     Header2: Attribute.String;
+    something: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "landing-page",
     "pluralName": "landing-pages",
-    "displayName": "Landing Page"
+    "displayName": "Landing Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,16 @@
     },
     "Header2": {
       "type": "string"
+    },
+    "something": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
