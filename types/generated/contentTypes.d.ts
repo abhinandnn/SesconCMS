@@ -377,6 +377,7 @@ export interface ApiLandingPageLandingPage extends Schema.CollectionType {
     Header: Attribute.String;
     Header2: Attribute.String;
     something: Attribute.Media;
+    about: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
