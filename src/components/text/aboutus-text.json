@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_text_aboutus_texts",
+  "info": {
+    "displayName": "aboutus_text"
+  },
+  "options": {},
+  "attributes": {
+    "para1": {
+      "type": "text"
+    },
+    "para2": {
+      "type": "text"
+    }
+  }
+}

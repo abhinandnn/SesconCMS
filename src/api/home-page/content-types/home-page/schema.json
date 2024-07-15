@@ -1,0 +1,59 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "home-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_section_imgs": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "aboutus_carousel_imgs": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "aboutus_text": {
+      "type": "text"
+    },
+    "project_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.project-card"
+    },
+    "our_availability_text": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.aboutus-text"
+    },
+    "our_client_imgs": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "QnA": {
+      "displayName": "QnA",
+      "type": "component",
+      "repeatable": true,
+      "component": "qn-a.qn-a"
+    }
+  }
+}

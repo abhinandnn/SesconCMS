@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_card_project_cards",
+  "info": {
+    "displayName": "project_card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
