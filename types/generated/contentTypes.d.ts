@@ -801,7 +801,6 @@ export interface ApiAboutUsPageAboutUsPage extends Schema.SingleType {
   };
   attributes: {
     aboutus_text: Attribute.Text;
-    me: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
