@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "company_pages",
+  "info": {
+    "singularName": "company-page",
+    "pluralName": "company-pages",
+    "displayName": "company-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "company_text": {
+      "type": "string"
+    }
+  }
+}
