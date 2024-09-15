@@ -800,7 +800,12 @@ export interface ApiAboutUsPageAboutUsPage extends Schema.SingleType {
     draftAndPublish: true;
   };
   attributes: {
-    aboutus_text: Attribute.Text;
+    Hero_section_imgs: Attribute.Media;
+    about_company: Attribute.Component<'text.aboutus-text'>;
+    about_company_img: Attribute.Media;
+    our_company: Attribute.Component<'text.aboutus-text'>;
+    what_make_us_stand: Attribute.Component<'comp.qualities', true>;
+    equipment_tools: Attribute.Component<'card.project-card', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

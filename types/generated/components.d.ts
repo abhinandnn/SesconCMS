@@ -12,6 +12,18 @@ export interface CardProjectCard extends Schema.Component {
   };
 }
 
+export interface CompQualities extends Schema.Component {
+  collectionName: 'components_comp_qualities';
+  info: {
+    displayName: 'qualities';
+  };
+  attributes: {
+    Title: Attribute.String;
+    Description: Attribute.Text;
+    img: Attribute.Media;
+  };
+}
+
 export interface QnAQnA extends Schema.Component {
   collectionName: 'components_qn_a_qn_as';
   info: {
@@ -39,6 +51,7 @@ declare module '@strapi/types' {
   export module Shared {
     export interface Components {
       'card.project-card': CardProjectCard;
+      'comp.qualities': CompQualities;
       'qn-a.qn-a': QnAQnA;
       'text.aboutus-text': TextAboutusText;
     }

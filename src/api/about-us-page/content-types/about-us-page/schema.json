@@ -12,8 +12,47 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "aboutus_text": {
-      "type": "text"
+    "Hero_section_imgs": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "about_company": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.aboutus-text"
+    },
+    "about_company_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "our_company": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.aboutus-text"
+    },
+    "what_make_us_stand": {
+      "type": "component",
+      "repeatable": true,
+      "component": "comp.qualities"
+    },
+    "equipment_tools": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.project-card"
     }
   }
 }
